@@ -98,3 +98,14 @@
   line-height: 1.63;
   margin: 0;
 }
+
+.photo-grid {
+  max-width: 1184px;
+  list-style-type: none;
+  gap: 16px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding-bottom: 92px;
+}
