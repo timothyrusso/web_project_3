@@ -109,3 +109,91 @@
   grid-template-rows: repeat(2, 1fr);
   padding-bottom: 92px;
 }
+
+.places {
+  max-width: 987px;
+  margin: 0 auto;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 48px 40px;
+  padding-bottom: 80px;
+}
+
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0;
+  max-width: 460px;
+}
+
+.place__website {
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__url-heading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 8px 0 0;
+}
+
+.place__image {
+  max-width: 460px;
+  min-height: 460px;
+}
+
+.place__main-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.place__paragraph {
+  margin: 0 0 25px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+.nft-button {
+  border: none;
+  background: #0278FE;
+  border-radius: 4px;
+  width: 248px;
+  height: 48px;
+}
+
+/* font-weight del link da sistemare */
+
+.nft-button__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+}
+
+
