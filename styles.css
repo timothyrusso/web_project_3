@@ -11,9 +11,12 @@
 }
 
 .page {
-  max-width: 1440px;
-  margin: auto;
   background-color: #2a2c2f;
+}
+
+.content {
+  max-width: 1280px;
+  margin: auto;
   font-family: 'Inter';
   color: #fff;
   -moz-osx-font-smoothing: grayscale;
@@ -113,14 +116,19 @@
 .places {
   max-width: 987px;
   margin: 0 auto;
+  padding-bottom: 92px;
 }
 
 .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
 }
 
 .place__title {
@@ -160,6 +168,8 @@
 .place__image {
   max-width: 460px;
   min-height: 460px;
+  object-fit: cover;
+  margin-bottom: 48px;
 }
 
 .place__main-text {
@@ -177,23 +187,65 @@
   margin: 0;
 }
 
-.nft-button {
+.button {
   border: none;
   background: #0278FE;
   border-radius: 4px;
   width: 248px;
   height: 48px;
+  z-index: 2;
 }
 
-/* font-weight del link da sistemare */
-
-.nft-button__link {
+.button__link {
   font-style: normal;
-  font-weight: 600;
   font-size: 18px;
   line-height: 1;
   color: #fff;
   text-decoration: none;
 }
 
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  padding-bottom: 92px;
+  margin: 0 auto;
+  background-image: url(./Images/cover__background.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
+.cover__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  margin: 0;
+  z-index: 2;
+}
+
+.cover__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 32px 0 32px;
+  z-index: 2;
+}
+
+.cover__overlay {
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 24px;
+}
