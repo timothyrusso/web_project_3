@@ -319,9 +319,21 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 600px) {}
+@media screen and (min-width: 426px) and (max-width: 600px) {
+.lead__title {
+  font-size: 60px;
+}
+.lead__subtitle {
+  font-size: 20px;
+}
+.cover {
+  max-width: 600px;
+  min-height: 600px;
+  background-size: cover;
+}
+}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header {
     padding: 20px 0 50.54px;
   }
@@ -393,7 +405,7 @@
   }
   .button_mobile {
     width: 288px;
-    margin: 0 16px;
+    margin: 0 auto;
   }
   .cover {
     max-width: 320px;
