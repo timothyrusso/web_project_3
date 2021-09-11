@@ -33,7 +33,7 @@
 }
 
 .logo {
-  width: 271px;
+  max-width: 271px;
 }
 
 .lead {
@@ -196,8 +196,7 @@
 .button {
   background: #0278FE;
   border-radius: 4px;
-  width: 248px;
-  height: 48px;
+  max-width: 248px;
   z-index: 2;
   transition: background 0.2s linear;
   font-style: normal;
@@ -208,6 +207,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 15px 0 15px;
 }
 
 .button:hover {
@@ -215,8 +215,8 @@
 }
 
 .button_cover {
-  width: 137px;
-  height: 48px;
+  width: 100%;
+  max-width: 137px;
   margin: 0 0 243px;
 }
 
@@ -357,7 +357,7 @@
     padding: 20px 0 50.54px;
   }
   .logo {
-    width: 200px;
+    max-width: 200px;
   }
   .lead__title {
     font-size: 40px;
@@ -422,7 +422,7 @@
     font-size: 16px;
   }
   .button_mobile {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
   }
   .cover {
@@ -454,5 +454,11 @@
   }
   .footer__copyright {
     line-height: 1;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .button {
+    width: 100%;
   }
 }
