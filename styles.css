@@ -298,6 +298,8 @@
   line-height: 1.14;
 }
 
+/* OK */
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -309,6 +311,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 920px) {
   .place {
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 420px auto;
   }
   .place__image {
@@ -333,16 +336,6 @@
     padding: 0 24px;
     gap: 48px 28px;
   }
-  .place {
-    padding-bottom: 72px;
-    grid-template-rows: auto 340px auto;
-  }
-  .place:last-child {
-    padding-bottom: 88px;
-  }
-  .place__image {
-    max-width: 340px;
-  }
   .place__title {
     font-weight: 900;
     font-size: 42px;
@@ -364,15 +357,46 @@
   }
 }
 
-/* DA SISTEMARE PLACES A RISOLUZIONE 768-525 */
-
-@media screen and (min-width: 525px) and (max-width: 768px) {
+@media screen and (min-width: 711px) and (max-width: 768px) {
   .place {
-    grid-template-rows: auto auto auto;
+    padding-bottom: 72px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 340px auto;
+  }
+  .place:last-child {
+    padding-bottom: 88px;
+  }
+  .place__image {
+    max-width: 340px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 600px) {
+@media screen and (min-width: 601px) and (max-width: 710px) {
+  .place {
+    padding-bottom: 72px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 285px auto;
+  }
+  .place:last-child {
+    padding-bottom: 88px;
+  }
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  .place {
+    padding-bottom: 72px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 233px auto;
+  }
+  .place:last-child {
+    padding-bottom: 88px;
+  }
+  .place__image {
+    max-width: 340px;
+  }
   .lead__title {
     font-size: 60px;
   }
@@ -388,14 +412,30 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 525px) {
+  .lead__title {
+    font-size: 60px;
+  }
+  .lead__subtitle {
+    font-size: 20px;
+  }
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "title" "website" "image" "main-text" "button";
+    padding-bottom: 72px;
+  }
+  .place:last-child {
+    padding-bottom: 88px;
   }
   .place__image {
     width: 100%;
     max-width: 460px;
+  }
+  .cover__title {
+    margin: 80px 0 0;
+  }
+  .button_cover {
+    margin: 0 auto 80px;
   }
 }
 
