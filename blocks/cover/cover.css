@@ -8,17 +8,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .cover {
-    background-size: cover;
-    background-position: center;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    background-size: cover;
-  }
+  background-size: cover;
+  background-position: center;
 }
