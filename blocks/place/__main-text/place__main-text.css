@@ -1,0 +1,13 @@
+.place__main-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  grid-area: main-text;
+}
+
+@media screen and (max-width: 425px) {
+  .place__main-text {
+    font-size: 16px;
+  }
+}

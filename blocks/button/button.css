@@ -1,0 +1,28 @@
+.button {
+  background: #0278FE;
+  border-radius: 4px;
+  max-width: 248px;
+  height: 48px;
+  z-index: 2;
+  transition: background 0.2s linear;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: button;
+}
+
+.button:hover {
+  background: #0063d2;
+}
+
+@media screen and (max-width: 300px) {
+  .button {
+    width: 100%;
+  }
+}

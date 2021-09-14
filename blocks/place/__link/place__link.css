@@ -1,0 +1,13 @@
+.place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 8px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+    margin: 12px 0 0;
+  }
+}
