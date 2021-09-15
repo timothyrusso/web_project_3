@@ -19,3 +19,7 @@ This project is made with HTML5 and CSS3, it contains flexbox, grids and it foll
 ## Plans for finalizing the project
 
 Next step will be to add more contents.
+
+## Link of the live project
+
+https://timothyrusso.github.io/web_project_3/

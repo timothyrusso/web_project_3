@@ -1,23 +1,21 @@
-.button_cover {
-  width: 100%;
-  max-width: 137px;
+.cover__button {
   margin: 0 auto 243px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
-  .button_cover {
+  .cover__button {
     margin: 0 auto 150px;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 600px) {
-  .button_cover {
+  .cover__button {
     margin: 0 auto 80px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .button_cover {
+  .cover__button {
     margin: 0 auto 45px;
   }
 }
