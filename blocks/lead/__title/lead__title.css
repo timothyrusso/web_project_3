@@ -6,7 +6,13 @@
   max-width: 793px;
 }
 
-@media screen and (min-width: 426px) and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .lead__title {
     font-size: 60px;
   }

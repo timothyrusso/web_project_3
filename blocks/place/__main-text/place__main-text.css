@@ -6,7 +6,7 @@
   grid-area: main-text;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .place__main-text {
     font-size: 16px;
   }

@@ -7,3 +7,15 @@
   text-align: right;
   margin: 0 0 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__quote-author {
+    padding-left: 300px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .intro__quote-author {
+    padding-left: 0;
+  }
+}

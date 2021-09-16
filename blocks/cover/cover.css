@@ -13,19 +13,19 @@
   background-position: center;
 }
 
-@media screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover {
     min-height: 746px;
   }
 }
 
-@media screen and (min-width: 526px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .cover {
     min-height: 600px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 525px) {
+@media screen and (max-width: 525px) {
   .cover {
     min-height: 500px;
   }
